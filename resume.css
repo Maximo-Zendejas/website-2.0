@@ -1,0 +1,133 @@
+/** Nice font 'Open-Sans' I got from Google. **/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/** Colors **/
+
+/*** GENERAL STYLE ***/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*** INTRO SECTION ***/
+
+#intro-section {
+  height: 80vh;
+  background-image: url('intro-bg.jpg');
+  background-size: cover;
+  background-position: center;
+    padding: 5em;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+     align-items: flex end;
+    width: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-left:1px solid black
+   
+}
+#link{
+    font-size: 25px;
+    color:black;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    
+}
+  #link:hover{
+        background-color: darkgrey;
+    }
+
+
+/* bio card */
+#bio-card {
+  width: 275px;
+  padding: 1.5em 0.5em;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-weight: 300;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.20),
+              0 15px 12px rgba(0,0,0,0.17);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio-pic > img {
+  width: 150px;
+}
+
+/** RESUME SECTION **/
+#resume-title{
+    text-align:center;
+    width: 100%;
+    
+}
+#resume-parent {
+  padding: 4em 0;
+  background: lightgoldenrodyellow;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    
+    
+}
+
+.resume-child {
+  border: 1px solid #DEE0DE;
+  margin: 1em;
+  background: #FFF;
+  color: #515251;
+    width: 250px;
+    
+   
+}
+#involvement{
+    order: 2;
+}
+
+#skills{
+    order: 1;
+    align-self: flex-start;
+    
+}
+.div-title {
+  padding: 0.5em;
+  font-size: 1.25em;
+  background: #B4DBE5;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+     background: #EEE;
+}

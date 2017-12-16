@@ -1,0 +1,48 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1{ 
+    padding-top: 90px;
+    width: 75%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline; 
+    font-size:45px;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-items: flex end;
+    width: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-left:1px solid black
+   
+}
+#link{
+    font-size: 25px;
+    color:black;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    
+}
+  #link:hover{
+        background-color: darkgrey;
+    }
+
+img{
+    
+    
+    height: 50px;
+    width: auto;
+  
+}
